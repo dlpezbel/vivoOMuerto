@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "name": "Leanne Graham",
+    "alive": true
+  },
+  {
+    "id": 2,
+    "name": "Lucas",
+    "alive": false
+  }
+]

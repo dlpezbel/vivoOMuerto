@@ -1,0 +1,188 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "el juego de pasa la frontera",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "cancela pasa la frontera"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "ayuda juego pasa la frontera",
+            "ayuda pasa la frontera"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "para pasa la frontera",
+            "stop pasa la frontera"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "PasaLaFronteraIntent",
+          "slots": [],
+          "samples": [
+            "pasa la frontera"
+          ]
+        },
+        {
+          "name": "EsLaLetraIntent",
+          "slots": [
+            {
+              "name": "letra",
+              "type": "letra"
+            }
+          ],
+          "samples": [
+            "Con la letra {letra} paso la frontera",
+            "Es la letra {letra}",
+            "La letra para pasar la frontera es la {letra} "
+          ]
+        },
+        {
+          "name": "PalabraPasaLaFronteraIntent",
+          "slots": [
+            {
+              "name": "palabra",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "la palabra {palabra} pasa la frontera"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "name": "letra",
+          "values": [
+            {
+              "name": {
+                "value": "z"
+              }
+            },
+            {
+              "name": {
+                "value": "y"
+              }
+            },
+            {
+              "name": {
+                "value": "v"
+              }
+            },
+            {
+              "name": {
+                "value": "u"
+              }
+            },
+            {
+              "name": {
+                "value": "t"
+              }
+            },
+            {
+              "name": {
+                "value": "s"
+              }
+            },
+            {
+              "name": {
+                "value": "r"
+              }
+            },
+            {
+              "name": {
+                "value": "q"
+              }
+            },
+            {
+              "name": {
+                "value": "p"
+              }
+            },
+            {
+              "name": {
+                "value": "o"
+              }
+            },
+            {
+              "name": {
+                "value": "n"
+              }
+            },
+            {
+              "name": {
+                "value": "m"
+              }
+            },
+            {
+              "name": {
+                "value": "l"
+              }
+            },
+            {
+              "name": {
+                "value": "k"
+              }
+            },
+            {
+              "name": {
+                "value": "j"
+              }
+            },
+            {
+              "name": {
+                "value": "i"
+              }
+            },
+            {
+              "name": {
+                "value": "g"
+              }
+            },
+            {
+              "name": {
+                "value": "f"
+              }
+            },
+            {
+              "name": {
+                "value": "e"
+              }
+            },
+            {
+              "name": {
+                "value": "d"
+              }
+            },
+            {
+              "name": {
+                "value": "c"
+              }
+            },
+            {
+              "name": {
+                "value": "b"
+              }
+            },
+            {
+              "name": {
+                "value": "a"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
