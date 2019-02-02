@@ -16,7 +16,8 @@ public class LaunchRequestHandler implements RequestHandler {
   }
 
   public Optional<Response> handle(HandlerInput input) {
-    String speechText = "Bienvenido al juego de \"Pasa la frontera\". Puedes empezar diciendo pasa la frontera.";
+    String speechText = "Bienvenido al juego de \"Vivo o muerto\". ¿A qué versión quieres jugar: versión personajes famosos o versión juego de tronos?";
+
     return input.getResponseBuilder()
         .withSpeech(speechText)
         .withSimpleCard(DeadOrAliveStreamHandler.SKILL_TITLE, speechText)

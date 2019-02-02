@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "name": "Butragueño",
+    "alive": true,
+    "description": "fubolista nacido en 1950"
+  },
+  {
+    "id": 2,
+    "name": "biriukov",
+    "alive": false
+    "description": "jugador de baloncesto nacido en 1970"
+  }
+]

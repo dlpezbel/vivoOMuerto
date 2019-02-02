@@ -7,4 +7,5 @@ public class PersonDTO {
   Integer id;
   String name;
   Boolean alive;
+  String description;
 }

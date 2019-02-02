@@ -1,183 +1,72 @@
 {
   "interactionModel": {
     "languageModel": {
-      "invocationName": "el juego de pasa la frontera",
+      "invocationName": "vivo o muerto",
       "intents": [
         {
           "name": "AMAZON.CancelIntent",
-          "samples": [
-            "cancela pasa la frontera"
-          ]
+          "samples": []
         },
         {
           "name": "AMAZON.HelpIntent",
-          "samples": [
-            "ayuda juego pasa la frontera",
-            "ayuda pasa la frontera"
-          ]
+          "samples": []
         },
         {
           "name": "AMAZON.StopIntent",
-          "samples": [
-            "para pasa la frontera",
-            "stop pasa la frontera"
-          ]
+          "samples": []
         },
         {
           "name": "AMAZON.NavigateHomeIntent",
           "samples": []
         },
         {
-          "name": "PasaLaFronteraIntent",
+          "name": "vivo",
           "slots": [],
           "samples": [
-            "pasa la frontera"
+            "no está muerto",
+            "esta vivo",
+            "vivo"
           ]
         },
         {
-          "name": "EsLaLetraIntent",
-          "slots": [
-            {
-              "name": "letra",
-              "type": "letra"
-            }
-          ],
+          "name": "muerto",
+          "slots": [],
           "samples": [
-            "Con la letra {letra} paso la frontera",
-            "Es la letra {letra}",
-            "La letra para pasar la frontera es la {letra} "
+            "no está vivo",
+            "está muerto",
+            "muerto"
           ]
         },
         {
-          "name": "PalabraPasaLaFronteraIntent",
+          "name": "modo",
           "slots": [
             {
-              "name": "palabra",
-              "type": "AMAZON.SearchQuery"
+              "name": "version",
+              "type": "version_type"
             }
           ],
+          "samples": []
+        },
+        {
+          "name": "VivoOMuertoIntent",
+          "slots": [],
           "samples": [
-            "la palabra {palabra} pasa la frontera"
+            "vivo o muerto"
           ]
         }
       ],
       "types": [
         {
-          "name": "letra",
+          "name": "version_type",
           "values": [
             {
               "name": {
-                "value": "z"
+                "value": "personajes famosos"
               }
             },
             {
               "name": {
-                "value": "y"
-              }
-            },
-            {
-              "name": {
-                "value": "v"
-              }
-            },
-            {
-              "name": {
-                "value": "u"
-              }
-            },
-            {
-              "name": {
-                "value": "t"
-              }
-            },
-            {
-              "name": {
-                "value": "s"
-              }
-            },
-            {
-              "name": {
-                "value": "r"
-              }
-            },
-            {
-              "name": {
-                "value": "q"
-              }
-            },
-            {
-              "name": {
-                "value": "p"
-              }
-            },
-            {
-              "name": {
-                "value": "o"
-              }
-            },
-            {
-              "name": {
-                "value": "n"
-              }
-            },
-            {
-              "name": {
-                "value": "m"
-              }
-            },
-            {
-              "name": {
-                "value": "l"
-              }
-            },
-            {
-              "name": {
-                "value": "k"
-              }
-            },
-            {
-              "name": {
-                "value": "j"
-              }
-            },
-            {
-              "name": {
-                "value": "i"
-              }
-            },
-            {
-              "name": {
-                "value": "g"
-              }
-            },
-            {
-              "name": {
-                "value": "f"
-              }
-            },
-            {
-              "name": {
-                "value": "e"
-              }
-            },
-            {
-              "name": {
-                "value": "d"
-              }
-            },
-            {
-              "name": {
-                "value": "c"
-              }
-            },
-            {
-              "name": {
-                "value": "b"
-              }
-            },
-            {
-              "name": {
-                "value": "a"
+                "value": "juego de tronos"
               }
             }
           ]
